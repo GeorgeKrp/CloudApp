@@ -13,7 +13,7 @@ jobs:
             bundle install
             yarn install
       - run:
-          name: Run tests
+          name: 
           command: |
             bundle exec rspec
             # Add commands to run your frontend tests here if applicable
